@@ -1,9 +1,50 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.recipe_app",
-    "sha256_cert_fingerprints":
-    ["B6:94:02:F5:90:8A:DA:79:F4:B7:E9:12:A0:CA:57:35:FB:88:45:A9:4B:09:84:83:BA:CB:AE:ED:EB:91:C9:1E"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "asia.teqnological.pipster.dev",
+      "sha256_cert_fingerprints": [
+        "2E:49:9B:0E:1B:07:7C:EA:FE:26:37:3E:7D:1C:B6:40:45:50:CD:C6:C8:BE:7B:D7:CB:9B:91:73:AF:BC:21:92"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "asia.teqnological.pipster.staging",
+      "sha256_cert_fingerprints": [
+        "2E:49:9B:0E:1B:07:7C:EA:FE:26:37:3E:7D:1C:B6:40:45:50:CD:C6:C8:BE:7B:D7:CB:9B:91:73:AF:BC:21:92"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "uk.finatext.pipster",
+      "sha256_cert_fingerprints": [
+        "2E:49:9B:0E:1B:07:7C:EA:FE:26:37:3E:7D:1C:B6:40:45:50:CD:C6:C8:BE:7B:D7:CB:9B:91:73:AF:BC:21:92"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "uk.finatext.pipster",
+      "sha256_cert_fingerprints": [
+        "EF:4D:4A:26:81:65:F8:F0:D3:A9:03:D6:2A:91:8C:C7:3D:F8:93:F9:B6:05:F1:8E:F9:7F:3F:98:C7:3E:8C:00"
+      ]
+    }
   }
-}]
+]
